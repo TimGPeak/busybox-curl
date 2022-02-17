@@ -4,7 +4,7 @@ MAINTAINER Yauri Attamimi <yauritux@gmail.com>
 
 WORKDIR /bin
 
-ADD curl-amd64 curl git
+ADD curl-amd64 curl
 
 RUN chmod u+x /bin/curl
 
